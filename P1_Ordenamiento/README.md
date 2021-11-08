@@ -1,265 +1,152 @@
-<p align="center"><img src="static/logo-small.png" alt="Mark Text" width="100" height="100"></p>
+<p></p>
 
-<h1 align="center">Mark Text</h1>
+<h1 align="center">Proyecto 01: Algoritmos de Ordenamiento</h1>
+
+---
 
 <div align="center">
-  <a href="https://twitter.com/intent/tweet?via=marktextme&url=https://github.com/marktext/marktext/&text=What%20do%20you%20want%20to%20say%20to%20app?&hashtags=happyMarkText">
-    <img src="https://img.shields.io/twitter/url/https/github.com/marktext/marktext.svg?style=for-the-badge" alt="twitter">
-  </a>
-</div>
-<div align="center">
-  <strong>:high_brightness: Next generation markdown editor :crescent_moon:</strong><br>
-  A simple and elegant open-source markdown editor that focused on speed and usability.<br>
-  <sub>Available for Linux, macOS and Windows.</sub>
+  <strong>Universidad Nacional de San Agustín</strong><br>
+  Facultad de Ingeniería de Producción y Servicios<br>
+  <sub>Escuela Profesional de Ingeniería de Sistema</sub>
 </div>
 
 <br>
 
 <div align="center">
-  <!-- Version -->
-  <a href="https://marktext.github.io/website">
-    <img src="https://badge.fury.io/gh/jocs%2Fmarktext.svg" alt="website">
-  </a>
-  <!-- License -->
-  <a href="LICENSE">
-    <img src="https://img.shields.io/github/license/marktext/marktext.svg" alt="LICENSE">
-  </a>
-  <!-- Build Status -->
-  <a href="https://travis-ci.org/marktext/marktext/">
-    <img src="https://travis-ci.org/marktext/marktext.svg?branch=master" alt="build">
-  </a>
-  <a href="https://ci.appveyor.com/project/marktext/marktext/branch/master">
-    <img src="https://ci.appveyor.com/api/projects/status/l4gxgydj0i95hmxg/branch/master?svg=true" alt="build">
-  </a>
-  <!-- Downloads total -->
-  <a href="https://github.com/marktext/marktext/releases">
-    <img src="https://img.shields.io/github/downloads/marktext/marktext/total.svg" alt="total download">
-  </a>
-  <!-- Downloads latest release -->
-  <a href="https://github.com/marktext/marktext/releases/latest">
-    <img src="https://img.shields.io/github/downloads/marktext/marktext/v0.16.3/total.svg" alt="latest download">
-  </a>
-  <!-- sponsors -->
-  <a href="https://opencollective.com/marktext">
-    <img src="https://opencollective.com/marktext/tiers/silver-sponsors/badge.svg?label=SilverSponsors&color=brightgreen" alt="sponsors">
-  </a>
+    <span>Asignatura: Análisis y Diseño de Algoritmos - Segundo Semestre 2021-B</span>
+    <span>Grupo: C</span>
 </div>
 
 <div align="center">
-  <h3>
-    <a href="https://marktext.app">
-      Website
-    </a>
-    <span> | </span>
-    <a href="https://github.com/marktext/marktext#features">
-      Features
-    </a>
-    <span> | </span>
-    <a href="https://github.com/marktext/marktext#download-and-installation">
-      Downloads
-    </a>
-    <span> | </span>
-    <a href="https://github.com/marktext/marktext#development">
-      Development
-    </a>
-    <span> | </span>
-    <a href="https://github.com/marktext/marktext#contribution">
-      Contribution
-    </a>
-  </h3>
-</div>
-
-<div align="center">
-  <sub>Translations:</sub>
-  <a href="docs/i18n/zh_cn.md#readme">
-    <span>:cn:</span>
-  </a>
-  <a href="docs/i18n/zh_tw.md#readme">
-    <span>:taiwan:</span>
-  </a>
-  <a href="docs/i18n/pl.md#readme">
-    <span>:poland:</span>
-  </a>
-  <a href="docs/i18n/ja.md#readme">
-    <span>:jp:</span>
-  </a>
-  <a href="docs/i18n/french.md#readme">
-    <span>:fr:</span>
-  </a>
-  <a href="docs/i18n/tr.md#readme">
-    <span>:tr:</span>
-  </a>
-  <a href="docs/i18n/spanish.md#readme">
-    <span>:es:</span>
-  </a>
-  <a href="docs/i18n/pt.md#readme">
-    <span>:portugal:</span>
-  </a>
-  <a href="docs/i18n/ko.md#readme">
-    <span>:kr:</span>
-  </a>
-</div>
-
-<div align="center">
-  <sub>This Markdown editor that could. Built with ❤︎ by
-    <a href="https://github.com/Jocs">Jocs</a> and
-    <a href="https://github.com/marktext/marktext/graphs/contributors">
-      contributors
-    </a>
+  <sub>Este trabajo fue elaborado con ❤︎ por:
+    <a href="">Rolando León Mamani</a>
   </sub>
 </div>
 
 <br />
 
-<h2 align="center">Supporting Mark Text</h2>
+---
 
-Mark Text is an MIT licensed open source project, and the latest version will always be downloadable for free from the GitHub release page. Mark Text is still in development, and its development is inseparable from all sponsors. I hope you join them:
+<h2 align="center">Introducción</h2>
 
-- [Become a backer or sponsor on Patreon](https://www.patreon.com/ranluo) or [One time donation](https://github.com/Jocs/sponsor.me)
-- [Become a backer or sponsor on Open Collective](https://opencollective.com/marktext)
+Para este Proyecto 01 se han usado los algoritmos de Insertion Sort, Quick Sort, Heap Sort y también un algoritmo híbrido que es la combinación de Insertion Sort y Quick Sort, así mismo, se determinó el tamaño de cambio entre dichos algoritmos y el método de particionamiento adecuado para el pivot. Posteriormente se hizo una comparación entre Heap Sort y el algoritmo hibrido, para determinar el tiempo de ordenamiento de ambos.
 
-##### What's the difference between Patreon and Open Collective?
+# Algoritmos de Ordenamiento
 
-Patreon: Funds will be directly sponsored to Luo Ran (@jocs) who created Mark Text and continues to maintain it.
-Open Collective: All expenses are transparent. The funds will be used for the development and maintenance of Mark Text, funding online and offline activities, and acquiring other necessary resources.
-Names and company logos of all sponsors (from both Patreon and Open Collective) will appear on the official website for Mark Text and in its README.md file.
+## Insert Sort
 
-**Special Sponsors**
+* **Descripción:**
 
-<a href="https://www.dogedoge.com/">
- <img src="https://www.dogedoge.com/assets/new_logo.min.png" width="100" height="100">
-</a>
+La ordenación por inserción está implementada en un algoritmo de comparación. Este algoritmo segmenta la lista en partes ordenadas y no ordenadas, aquí se crea una sublista de elementos ordenados de nuestra lista dada, y seguimos agregando nuevos elementos y ordenándolos iterativamente [1,2].
 
-**Platinum Sponsors**
+* **Complejidad algorítmica:**
 
-<a href="https://opencollective.com/marktext#platinum-sponsors">
- <img src="https://opencollective.com/marktext/tiers/platinum-sponsors.svg?avatarHeight=36&width=600">
-</a>
+La mejor entrada de caso es una lista desordenada. En este caso, la ordenación por inserción tiene un tiempo de ejecución lineal, es decir, O (n). La entrada del peor de los casos más simple es una matriz ordenada en orden inverso, esto le da a la ordenación por inserción un tiempo de ejecución cuadrático, es decir, O (n^2).
 
-**Gold Sponsors**
+## Quick Sort
 
-<a href="https://opencollective.com/marktext#platinum-sponsors">
-  <img src="https://opencollective.com/marktext/tiers/gold-sponsors.svg?avatarHeight=36&width=600">
-</a>
+* **Descripción:**
 
-**Silver Sponsors**
+Este algoritmo de divide y vencerás es el algoritmo de ordenación más utilizado. La ordenación rápida de este algoritmo es muy eficaz, que se utiliza a menudo para grandes conjuntos de datos. La ordenación rápida se basa en la partición de la lista en listas más pequeñas (según el punto de pivote). Los elementos se organizan en función de si son más pequeños o más grandes que el pivote [1,2].
 
-<a href="https://opencollective.com/marktext#platinum-sponsors">
-  <img src="https://opencollective.com/marktext/tiers/silver-sponsors.svg?avatarHeight=36&width=600">
-</a>
+* **Complejidad algorítmica:**
 
-**Bronze Sponsors**
+El peor de los casos es cuando el elemento más pequeño o más grande siempre se selecciona como pivote, esto crearía particiones de tamaño n-1, provocando llamadas recursivas n-1 veces, la complejidad de tiempo del peor caso de ordenación rápida es O (n^2). Si bien la función de partition utiliza bucles while anidados, hace comparaciones en todos los elementos de la lista para realizar sus intercambios. Como tal, tiene una complejidad temporal de O (n). Por lo tanto, la complejidad de tiempo del mejor caso y tiempo medio es O (nlogn).
 
-<a href="https://opencollective.com/marktext#platinum-sponsors">
-  <img src="https://opencollective.com/marktext/tiers/bronze-sponsors.svg?avatarHeight=36&width=600">
-</a>
+## Heap Sort
 
-**Backers**
+* **Descripción:**
 
-<a href="https://opencollective.com/marktext#backers">
-  <img src="https://opencollective.com/marktext/tiers/backer.svg?avatarHeight=36&width=600">
-</a>
+Heap Sort es una técnica de ordenación basada en comparaciones está basada en la estructura de datos de heap binario. Un árbol binario completo es un árbol binario en el que cada nivel, excepto posiblemente el último, está completamente lleno, y todos los nodos están lo más a la izquierda posible. Un árbol binario donde el elemento más grande es el nodo raíz. Un heap binario es un árbol binario completo donde los elementos se almacenan en un especial orden de modo que el valor en un nodo padre sea mayor (o menor) que los valores en sus dos nodos hijos [1,3].
 
-## Screenshot
+* **Complejidad algorítmica:**
 
-![](docs/marktext.png?raw=true)
+La complejidad de tiempo de heapify es O (logn). La complejidad de tiempo de creación de la función BuildHeap () es O (n) y la complejidad de tiempo general de Heap Sort es O (nLogn).
 
-## Features
+Para el mejor, promedio y peor caso, siempre será O (nLogn) [11].
 
-- Realtime preview (WYSIWYG) and a clean and simple interface to get a distraction-free writing experience.
-- Support [CommonMark Spec](https://spec.commonmark.org/0.29/), [GitHub Flavored Markdown Spec](https://github.github.com/gfm/) and selective support [Pandoc markdown](https://pandoc.org/MANUAL.html#pandocs-markdown).
-- Markdown extensions such as math expressions (KaTeX), front matter and emojis.
-- Support paragraphs and inline style shortcuts to improve your writing efficiency.
-- Output **HTML** and **PDF** files.
-- Various themes: **Cadmium Light**, **Material Dark** etc.
-- Various editing modes: **Source Code mode**, **Typewriter mode**, **Focus mode**.
-- Paste images directly from clipboard
+## Implantación de algoritmo hibrido: Quick Sort + Insertion Sort
 
-<h4 align="center">:crescent_moon:themes:high_brightness:</h4>
+* **Descripción:**
 
-| Cadmium Light                                     | Dark                                            |
-|:-------------------------------------------------:|:-----------------------------------------------:|
-| ![](docs/themeImages/cadmium-light.png?raw=true)  | ![](docs/themeImages/dark.png?raw=true)         |
-| Graphite Light                                    | Material Dark                                   |
-| ![](docs/themeImages/graphite-light.png?raw=true) | ![](docs/themeImages/materal-dark.png?raw=true) |
-| Ulysses Light                                     | One Dark                                        |
-| ![](docs/themeImages/ulysses-light.png?raw=true)  | ![](docs/themeImages/one-dark.png?raw=true)     |
+Se dice que un algoritmo híbrido es cuando se combina más de un algoritmo. En este caso el algoritmo híbrido se implementa con la combinación de Quick Sort y Insertion Sort. El Quick Sort es eficiente si el tamaño de la entrada es muy grande. Pero, la ordenación por Insertion es más eficiente que la Quick Sort en el caso de arreglos pequeños, ya que el número de comparaciones e intercambios es menor en comparación con la de Quick Sort.
 
-<h4 align="center">:smile_cat:Edit modes:dog:</h4>
+La idea es utilizar la recursividad y encontrar continuamente el tamaño de la matriz. Si el tamaño es mayor que el valor de umbral (10), entonces se llama a la función de Quick Sort para esa parte del arreglo. De lo contrario, se llama a Insertion Sort. Entonces combinamos los dos algoritmos para ordenar de manera eficiente usando ambos enfoques [4].
 
-| Source Code          | Typewriter               | Focus               |
-|:--------------------:|:------------------------:|:-------------------:|
-| ![](docs/source.gif) | ![](docs/typewriter.gif) | ![](docs/focus.gif) |
+En la siguiente imagen se muestra como se realiza el ordenamiento:
 
-## Why write another editor?
+![](images/hybridgfg.png?raw=true)
+ <center><sub>Figura 01: Quick Sort + Insertion Sort [4]</sub></sub></center>
 
-1. I love writing. I have used a lot of markdown editors, yet there is still not an editor that can fully meet my needs. I don't like to be disturbed when I write by some unbearable bug. **Mark Text** uses virtual DOM to render pages which has the added benefits of being highly efficient and being open source. That way anyone who loves markdown and writing can use Mark Text.
-2. As mentioned above, **Mark Text** is completely free and open source and will be open source forever. We hope that all markdown lovers will contribute their own code and help develop **Mark Text** into a popular markdown editor.
-3. There are many markdown editors and all have their own merits, some have features which others don't. It's difficult to satisfy each markdown users' needs but we hope **Mark Text** will be able to satisfy each markdown user as much as possible. Although the latest **Mark Text** is still not perfect, we will try to make it as best as we possibly can.
+* **Selección de tamaño:**
 
-## Download and Installation
+La experimentación con un programa que registre tiempos de ejecución (profiler) es una buena forma de determinar el punto de ruptura. Una regla razonable es que a menos que n sea aproximadamente 100, puede ser una pérdida de tiempo implantar un algoritmo como Insert Sort [5].
+El algoritmo de Insertion Sort también se puede utilizar para combinar con Quick Sort. Aunque la complejidad del tiempo es de O (N^2), estos algoritmos demuestran ser eficientes en este caso porque se usan solo cuando el tamaño del arreglo es menor que un valor de umbral que es 10, esto se toma en cuenta en la implementación [4].
 
-![platform](https://img.shields.io/static/v1.svg?label=Platform&message=Linux-64%20|%20macOS-64%20|%20Win-32%20|%20Win-64&style=for-the-badge)
+Porque el tiempo de ejecución real (en segundos) del código real en una computadora real depende de qué tan rápido esa computadora ejecuta las instrucciones y qué tan rápido recupera los datos relevantes de la memoria, qué tan bien los almacena en caché, etc. La ordenación por inserción y la ordenación rápida utilizan diferentes instrucciones y tienen diferentes patrones de acceso a la memoria. Por lo tanto, el tiempo de ejecución de la ordenación rápida frente a la ordenación por inserción para cualquier conjunto de datos en particular en cualquier sistema en particular dependerá tanto de las instrucciones utilizadas para implementar esas dos rutinas de ordenación como de los patrones de acceso a la memoria de los datos. Dadas las diferentes combinaciones de instrucciones, es perfectamente posible que la ordenación por inserción sea más rápida para listas de hasta diez elementos en un sistema, pero solo para listas de hasta seis elementos en otro sistema [6].
 
-| ![](https://raw.githubusercontent.com/wiki/ryanoasis/nerd-fonts/screenshots/v1.0.x/mac-pass-sm.png)                                                                                                  | ![](https://raw.githubusercontent.com/wiki/ryanoasis/nerd-fonts/screenshots/v1.0.x/windows-pass-sm.png)                                                                                                          | ![](https://raw.githubusercontent.com/wiki/ryanoasis/nerd-fonts/screenshots/v1.0.x/linux-pass-sm.png)                                                                                                                        |
-|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| [![latest version](https://img.shields.io/github/downloads/marktext/marktext/latest/marktext.dmg.svg)](https://github.com/marktext/marktext/releases/download/v0.16.3/marktext.dmg) | [![latest version](https://img.shields.io/github/downloads/marktext/marktext/latest/marktext-setup.exe.svg)](https://github.com/marktext/marktext/releases/download/v0.16.3/marktext-setup.exe) | [![latest version](https://img.shields.io/github/downloads/marktext/marktext/latest/marktext-x86_64.AppImage.svg)](https://github.com/marktext/marktext/releases/download/v0.16.3/marktext-x86_64.AppImage) |
+La primera prueba fue la velocidad de ordenación por inserción frente a la velocidad de la ordenación rápida. Como se muestra en la Figura 2, Insertion Sort versus Quick Sort, los tiempos de ordenación se devolvieron como se esperaba: inicialmente el algoritmo Insert Sort funcionó mejor que Quick Sort. Luego, en un umbral particular en algún lugar entre 10 y 90, Quick Sort se volvió más eficiente. Notamos que esta región variaba bastante dependiendo de diferentes características de la computadora, lo más importante la velocidad del procesador, por lo que ejecutamos estas pruebas utilizando varias velocidades de procesador diferentes [12].
 
-Want to see new features of the latest version? Please refer to [CHANGELOG](.github/CHANGELOG.md).
+![](images/InsertionVsQuick.png?raw=true)
+ <center><sub>Figura 02: Insertion Sort vs. Quick Sort [12]</sub></center>
 
-#### macOS
+En pruebas de más de 100, vemos una tendencia en la que Quick Sort comenzó a funcionar mucho mejor que un tipo de Insertion Sort. Esto era de esperar debido al análisis asintótico de los tipos; El Insertion Sort es O (n) y Quick Sort es O (n Ig n), por lo que esperábamos que esta tendencia se indicara en nuestros datos. Nosotros también señaló que ambos algoritmos no se ocuparían de tamaños de muestra de 100.000 o más, específicamente en predatos ordenados, debido a errores de desbordamiento de pila. Esto fue, en muchos aspectos, un déficit de hardware [12].
 
-You can either download the latest `marktext-%version%.dmg` from the [release page](https://github.com/marktext/marktext/releases/latest) or install Mark Text using [**homebrew cask**](https://github.com/caskroom/homebrew-cask). To use Homebrew-Cask you just need to have [Homebrew](https://brew.sh/) installed.
+> Por lo tanto, para el tamaño de cambio entre Insert Sort y Qick Sort, es un tamaño menor a 10 elementos.
 
-```bash
-brew install --cask mark-text
-```
+* **El método para la función de partición:**
 
-#### Windows
+Hay dos algoritmos populares para dividir un arreglo. Los esquemas de partición de Lamuto y Hoare, ordenan con éxito el arreglo dado, aunque el esquema de Hoare generalmente se considera más eficiente. El esquema de Lamuto ejecuta 3 veces más intercambios que el esquema de Hoare en promedio. El esquema de Hoare gana cuando la matriz contiene muchos elementos repetidos, ya que el de Lamuto intercambia repetidamente elementos repetidos innecesariamente [7].
 
-Simply download and install Mark Text via setup wizard (`marktext-setup-%version%.exe`) and choose whether to install per-user or machine wide.
+Desde una dimensión pedagógica, Debido a su simplicidad, el método de partición de Lomuto podría ser más fácil de implementar (Introduction to algorithms - Thomas H. Cormen, lo sugiere en su libro). Pero vista desde una dimensión de rendimiento, para un uso práctico, la facilidad de implementación podría ser sacrificada en aras de la eficiencia. Sobre una base teórica, podemos determinar el número de comparaciones de elementos y swaps para comparar el rendimiento. Además, el tiempo real de ejecución estará influenciado por otros factores, como el rendimiento del almacenamiento en caché y las predicciones erróneas de las ramas. Entonces, los algoritmos se comportan de manera muy similar en permutaciones aleatorias, excepto por el número de intercambios. ¡Allí Lomuto necesita tres veces más que Hoare! [8,9,10].
 
-Alternatively, install Mark Text using [Chocolatey](https://chocolatey.org/). To use Chocolatey you need to have [Chocolatey](https://chocolatey.org/install) installed.
+> Para la implementación del algoritmo híbrido de Qick Sort, se utilizó el esquema de Haore.
 
-```bash
-choco install marktext
-```
+* **Comparación entre Heap Sort y algoritmo hibrido de Qick Sort:**
 
-#### Linux
+Para la comparación en cuanto el tiempo que tardan en ordenamiento de datos, se muestra en la figura 3, Hybrid Quick Sort versus Heap Sort.
 
-Please follow the [Linux installation instructions](docs/LINUX.md).
+![](images/hqsVShp.png?raw=true)
+ <center><sub>Figura 03: Hybrid Quick Sort versus Heap Sort (Elaboración propia)</sub></center>
 
-#### Other
+Podemos observar que en umbral de 10 funcionan igual ambos, pero a partir de este punto Hybrid Quick Sort funciona mucho mejor que Heap Sort hasta el umbral 50, en donde Heap Sort va mejorando hasta el umbral 85, presentando luego un pico hasta un umbral 110 y a partir de ahí estos van tomando distancias paralelas.
 
-All binaries for Linux, macOS and Windows can be downloaded from the [release page](https://github.com/marktext/marktext/releases/latest). If a version is unavailable for your system, then please open an [issue](https://github.com/marktext/marktext/issues).
+> Por lo tanto, el algoritmo de Hybrid Quick Sort es más eficiente que Heap Sort.
 
-## Development
 
-If you wish to build **Mark Text** yourself, please check out our [build instructions](docs/dev/BUILD.md).
+## Conclusiones
 
-- [User documentation](docs/README.md)
-- [Developer documentation](docs/dev/README.md)
+* Los algoritmos de ordenación son eficientes con cierto número de datos, también depende de otras variables propias de hardware.
 
-If you have any questions regarding **Mark Text**, you are welcome to write an issue. When doing so please use the default format found when opening an issue. Of course, if you submit a PR directly, it will be greatly appreciated.
+* Los algoritmos híbridos que se implementan con Quick Sort son mucho más eficientes frente a otros que no lo son.
 
-## Integrations
+* Los algoritmos de ordenamiento deben usarse dependiendo del tamaño de datos que se van a procesar, así también tener en cuenta las características de hardware, aunque esto no influye mucho al momento de hallar la complejidad computacional.
 
-- [Alfred Workflow](http://www.packal.org/workflow/mark-text): A Workflow for the macOS app Alfred: Use "mt" to open files/folder with Mark Text.
 
-## Contribution
 
-Mark Text is in full development, please make sure to read the [Contributing Guide](CONTRIBUTING.md) before making a pull request. Want to add some features to Mark Text? Refer to our [roadmap](https://github.com/marktext/marktext/projects) and open issues.
+## Referencias
 
-## Contributors
+[1] [Algoritmos de ordenación en Python](https://pharos.sh/algoritmos-de-ordenacion-en-python/)
 
-Thank you to all the people who have already contributed to Mark Text[[contributors](https://github.com/marktext/marktext/graphs/contributors)]
+[2] [Sorting Algorithms in Python](https://dev.to/siddhartha280601/sorting-algorithms-in-python-33mm)
 
-Special thanks to @[Yasujizr](https://github.com/Yasujizr) who designed the Mark Text logo.
+[3] [Heapsort](https://www.geeksforgeeks.org/heap-sort/)
 
-<a href="https://github.com/marktext/marktext/graphs/contributors"><img src="https://opencollective.com/marktext/contributors.svg?width=890" /></a>
+[4] [Advanced Quick Sort (Hybrid Algorithm)](https://www.geeksforgeeks.org/advanced-quick-sort-hybrid-algorithm/)
 
-## License
+[5] [Libro Estructura de Datos y Algoritmos de Alfred V. Aho y otros (Pág 259: Limitaciones de los algoritmos simples)](https://www.academia.edu/23710587/Estructura_de_Datos_y_Algoritmos_Aho_Hopcroft_Ullman)
 
-[**MIT**](LICENSE).
+[6] [Why is the optimal cut-off for switching from Quicksort to Insertion sort machine dependent?](https://cs.stackexchange.com/questions/37956/why-is-the-optimal-cut-off-for-switching-from-quicksort-to-insertion-sort-machin)
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmarktext%2Fmarktext.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmarktext%2Fmarktext?ref=badge_large)
+[7] [Introducción a los algoritmos: comprensión de QuickSort](https://ichi.pro/es/introduccion-a-los-algoritmos-comprension-de-quicksort-94708718133784)
+
+[8] [Particionamiento Quicksort: Hoare vs. Lomuto](https://qastack.mx/cs/11458/quicksort-partitioning-hoare-vs-lomuto)
+
+[9] [Quicksort (Quicksort)](https://programmerclick.com/article/2326629088/)
+
+[10] [Ordenación rápida](https://www.it-swarm-es.com/es/algorithm/comprender-la-clasificacion-rapida/828500891/)
+
+[11] [Heap sort algorithm](https://dev.to/ayabouchiha/heap-sort-algorithm-247h)
+
+[12] [Speeds of Insertion and Quick Sort](https://www.alexlaird.com/content/uploads/2009/12/speedsofinsertionandquicksort.pdf)
+
